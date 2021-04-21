@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.app{
+  text-align: center;
+  background-color: darkcyan;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.question
+{
+  color: white;
+  font-size: 18px;
+  border: 1px solid  white;
+  width: 300px;
+  padding: 15px 30px ;
+  margin-bottom: 10px;
+}
+.answer{
+  display: flex;
+  justify-content:center;
+  margin: 5px auto;
+  padding: 10px 100px;
+  width: 100%;
+  background-color: burlywood;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  transition: .2s linear;
+}
+.answer:hover{
+  transform:scale(0.9);
+  background-color: green;
+  color: white;
+}
